@@ -28,7 +28,7 @@ def main():
         class_names = f.readlines()
         f.close()
     # init model
-    model = C3D_model.C3D(num_classes=101)
+    model = C3D_model.C3D(num_classes=2)
     checkpoint = torch.load("./run/run_2/models/C3D-ucf101_epoch-1.pth.tar", map_location=lambda storage, loc: storage)
     model.load_state_dict(checkpoint['state_dict'])
     '''
