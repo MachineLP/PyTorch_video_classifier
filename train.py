@@ -23,8 +23,8 @@ resume_epoch = 0  # Default is 0, change if want to resume
 useTest = True # See evolution of the test set when training
 nTestInterval = 20 # Run on test set every nTestInterval epochs
 snapshot = 2 # Store a model every snapshot epochs
-lr = 1e-3 # Learning rate
-batch_size = 2
+lr = 1e-4 # Learning rate
+batch_size = 4
 
 dataset = 'ucf101' # Options: hmdb51 or ucf101
 
