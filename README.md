@@ -1,6 +1,8 @@
 
 ref： https://github.com/jfzhang95/pytorch-video-recognition 
 
+ref：https://github.com/dmlc/gluon-cv
+
 ## Installation
 The code was tested with Anaconda and Python 3.5. After installing the Anaconda environment:
 
